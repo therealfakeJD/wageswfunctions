@@ -39,6 +39,19 @@ function otPay(specot1, specot2){
 		
 }*/
 
-function myName(Justin, DiBlasi){
-	console.log("Justin DiBlasi")
+function weeklyPay(hours, wage){
+	var weekpay;
+	weekpay = hours * wage;
+	return weekpay;
+	
 }
+
+function overtimePay(othours, otwage){
+	var overtime;
+	overtime = othours * otwage;
+	return overtime;
+}
+
+console.log("Weekly Pay:" + " " + "$" + weeklyPay(40, 23.43));
+console.log("Overtime Pay:" + " " + "$" + overtimePay(7, 35.15))
+
